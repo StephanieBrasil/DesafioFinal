@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,700&family=Roboto:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    list-style: none;
+  }
+
+  header {
+    height: 10vh;
+    background-color: #252525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+
+  header div {
+    height: 7vh;
+    display: flex;
+    padding-left: 5%;
+  }
+
+  h2 {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+  }
+
+  nav {
+    width: 25vw;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 5%;
+  }
+
+  li {
+    font-size: 1rem;
+  }
+
+  .firstDog {
+    height: 130vh;
+    background-image: url("cachorro1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 130vh;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.6rem;
+    text-align: center;
+    color: white;
+  }
+
+  .divCachorroUm {
+    height: 70vh;
+  }
+
+  .secondDog {
+    height: 130vh;
+    background-image: url("cachorro2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 130vh;
+    background-position: top;
+    padding-left: 8%;
+    padding-top: 18%;
+    color: #3A342F;
+  }
+
+  .divCachorroDois {
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 80%;
+  }
+
+  .divCachorroDois h2 {
+    font-size: 2rem;
+  }
+
+  .divCachorroDois p {
+    font-size: 1.6rem;
+  }
+
+  #button1 {
+  width: 12vw;
+  height: 10vh;
+  font-size: 1.6rem;
+  border-radius: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3A342F;
+  color: #FFFFFF;
+  }
+
+  .thirdDog {
+    height: 130vh;
+    background-image: url("cachorro3.png");
+    background-size: cover;
+    background-size: 100% 130vh;
+    background-repeat: no-repeat;
+    padding-left: 9%;
+    padding-top: 18%;
+    color: #FFFFFF;
+  }
+
+  .divCachorroTres {
+    width: 40%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 50%;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+
+  #button2 {
+  width: 12vw;
+  height: 10vh;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 44px;
+  position: relative;
+  }
+
+  .sectionApoio {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FD6A9A;
+    font-style: italic;
+  }
+
+  footer {
+    height: 50vh;
+    background-color: #FD6A9A;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+  }
+
+  footer ul {
+    display: flex;
+    flex-direction: column;
+    padding: 6rem;
+  }
+
+  footer h3 {
+    height: 7vh;
+  }
+
+  @media screen and (max-width: 600px) {
+
+    header div {
+    height: 7vh;
+    display: flex;
+    padding-left: 5%;
+    }
+
+    #ocultar {
+      display: none;
+    }
+
+    .firstDog {
+      width: 100%;
+      background-image: url("cachorro1-mobile.png");
+    }
+
+    .secondDog {
+      background-image: url("cachorro2-mobile.png");
+      width: 100%;
+    }
+
+    .thirdDog {
+      width: 100%;
+      background-image: url("cachorro3-mobile.png");
+    }
+
+
+  }
